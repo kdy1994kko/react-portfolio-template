@@ -16,7 +16,9 @@ const Footer = ({}) => {
             <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
               TOGETHER
             </h1>
-            <Button type="primary">Schedule a call</Button>
+            <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
+              \(^o^)/
+            </h1> 
             <div className="mt-10">
               <Socials />
             </div>
@@ -24,11 +26,10 @@ const Footer = ({}) => {
         </div>
       </div>
       <h1 className="text-sm text-bold mt-2 laptop:mt-10 p-2 laptop:p-0">
-        Made With ❤ by{" "}
-        <Link href="http://www.chetanverma.com">
-          <a className="underline underline-offset-1">Chetan Verma</a>
+        <Link href="https://www.biblegateway.com/passage/?search=Matthew+10%3A34-39&version=AMP">
+          <a className="underline underline-offset-1" target="_blank" rel="noreferrer">Whoever finds his life [in this world] will [eventually] lose it [through death], and whoever loses his life [in this world] for My sake will find it [that is, life with Me for all eternity]. ~ Matthew 10:39</a>
         </Link>
-      </h1>
+      </h1> 
     </>
   );
 };
